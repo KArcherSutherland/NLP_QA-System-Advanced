@@ -1,0 +1,26 @@
+There are two ways to do a system call for this in perl. 
+
+The first: 
+
+#!/usr/bin/perl
+my $text = shift; 
+my $perl     = $^X;
+my $output = `opennlp TokenizerME en-token.bin < $text`;
+#print "OUTPUT: \n";
+print "$output\n";
+
+The second: 
+
+#!/usr/bin/perl
+my $text = shift; 
+system "opennlp TokenizerME en-token.bin < $text > output";
+open(FILE, "output") || die "Could not open output\n";
+while(<FILE>) { 
+   chomp; 
+   print "$_\n";
+}
+
+
+For each of these, the model (en-token.bin) needs to be in the same directory that you are running this program. 
+
+The opennlp location itself will be in the PATH variable, so when you are running opennlp it will look there and find it. It will not know where the en-token.bin (or other model files) are so those need to be in the same directory. 

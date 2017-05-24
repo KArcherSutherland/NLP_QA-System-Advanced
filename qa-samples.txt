@@ -1,0 +1,141 @@
+Question : Who is Steve Jobs?
+Correct Answer : Steve Jobs was an American entrepreneur, businessman, inventor, and industrial designer.
+My System Answer : Steve Jobs was an American entrepreneur, businessman, inventor, and industrial designer. (correct)
+
+Question : Who is Santa Claus?
+Correct Answer : Santa Claus is a legendary figure of Western Christian culture who is said to bring gifts to the homes of well-behaved ("good" or "nice") children on Christmas Eve (24 December) and the early morning hours of Christmas Day (25 December).
+My System Answer : I'm sorry, I don't know.  (Incorrect)
+
+Question : Who is Kate Walsh?
+Correct Answer : Kathleen Erin "Kate" Walsh (born October 13, 1967) is an American actress and businesswoman.
+My System Answer : I'm sorry, I don't know.  (Incorrect)
+
+Question : Who was George Washington's wife?
+Correct Answer : George Washington's wife was Martha Washington.
+My System Answer : George Washington wife is  Mary Ball Washington . (Incorrect)
+
+Question : Who was Alexander Hamilton?
+Correct Answer : Alexander Hamilton was an American statesman and one of the Founding Fathers of the United States.
+My System Answer : Alexander Hamilton was an American statesman and one of the Founding Fathers of the United States. (Correct)
+
+Question : Who is Darth Vader?
+Correct Answer : Darth Vader is a character from star wars.
+My System Answer : Darth Vader is a fictional character in the [[Star Wars]] franchise. (Correct)
+
+Question : Who is Luke Skywalker played by?
+Correct Answer : Luke Skywalker is played by Mark Hamill?
+My System Answer : Luke Skywalker by played is Mark Hamill. (Correct)
+
+Question : What is Hamilton?
+Correct Answer : Hamilton is a sung-through musical about the life of American Founding Father Alexander Hamilton, with music, lyrics and book by Lin- Manuel Miranda.
+My System Answer : I'm sorry, I don't know. (Incorrect)
+
+Question : What is Whiskey?
+Correct Answer : Whisky or whiskey is a type of distilled alcoholic beverage made from fermented grain mash. 
+My System Answer : Whiskey are thus distinguished in spelling; 'whisky' is the usual spelling in Britain and 'whiskey' that in the U.S." is a type of distilled alcoholic beverage made from fermented grain mash. (Incorrect)
+
+Question : What is a dog?
+Correct Answer : A dog is a member of genus Canis (canines) that forms part of the wolf-like canids, and is the most widely abundant carnivore.
+My System Answer : A dog is a member of genus [[Canis]] (canines) that forms part of the wolf-like canids, and is the most widely abundant carnivore. (Correct)
+
+Question : What is fire?
+Correct Answer : Fire is the rapid oxidation of a material in the exothermic chemical process of combustion, releasing heat, light, and various reaction products.
+My System Answer : Fire is the rapid oxidation of a material in the exothermic chemical process of combustion, releasing heat, light, and various reaction products. (Correct)
+
+Question : What is life?
+Correct Answer : Life is a characteristic distinguishing physical entities having biological processes, such as signaling and self-sustaining processes, from those that do not, either because such functions have ceased, or because they never had such functions and are classified as inanimate.
+My System Answer : Life is still uncertain. (Incorrect)
+
+Question : What is Life's purpose?
+Correct Answer : Life's purpose is unknown.
+My System Answer : Life purpose is consistent with teleological explanations of life, which account for phenomena in terms of purpose or goal-directedness.. (Incorrect)
+
+Question : What is America's capital?
+Correct Answer : America's capital is Washington D.C..
+My System Answer : America capital is a federal district which contains the capital of the United States, Washington DC.See (a)(36) and (a)(38) U.S. Federal Code, Immigration and Nationality Act.. (correct)
+
+Question : Where is Russia's capital?
+Correct Answer : Russia's capital is Moscow.
+My System Answer : Russia capital is at  Russia .(incorrect)
+
+Question : Where is Turkey's capital
+Correct Answer : The capital of turkey is Ankara
+My System Answer : Turkey capital is at  Ankara .(correct)
+
+Question : Where is the Eiffel Tower?
+Correct Answer : The Eiffel Tower is in Paris France.
+My System Answer : The Eiffel Tower is located in 7th arrondissement, Paris, France. (Correct);
+
+Question : Where is Moscow?
+Correct Answer : Moscow is in Russia.
+My System Answer : Moscow is located in Russia (special marker).svg. (correct)
+
+Question : Where is Budapest?
+Correct Answer : Budapest is in Hungary.
+My System Answer : Budapest is located in Budapest, including the E+¦tv+¦s Lor+índ University, Central European University and Budapest University of Technology and Economics. (Incorrect)
+
+Question : Where is London?
+Correct Answer : London is located on the River Thames in the south east of the island of Great Britain.
+My System Answer : London is located in the picture causes the browser to load the appropriate article. (Incorrect)
+
+Question : Where is Richmond Virignia?
+Correct Answer : Richmond, Virginia is located at the fall line of the James River, west of Williamsburg, east of Charlottesville, and south of Washington, D.C.
+My System Answer : Richmond, Virginia is located at the fall line of the James River, west of Williamsburg, east of Charlottesville, and south of Washington, D.C. (Correct)
+
+Question : When was Steve Jobs born?
+Correct Answer : Steve Jobs's Birthday is February 24, 1955.
+My System Answer : Steve Jobs was born  August 1995, . (Incorrect)
+
+Question : When is Halloween?
+Correct Answer : Halloween is October 31.
+My System Answer : Halloween was 31 October. (correct)
+
+Question : When is Easter Celebrated?
+Correct Answer : Easter moves throughout the spring.
+My System Answer : Easter is celebrated Easter. (incorrect)
+
+Question : When is Mardi Gras?
+Correct Answer : Mardi Gras is the day before Ash Wednesday, right before lent starts.
+My System Answer : Mardi Gras was Day before Ash Wednesday, 47 days before Easter. (correct)
+
+Question : When was Return of the Jedi released?
+Correct Answer : Return of the Jedi came out in 1983.
+My System Answer : Return of the Jedi was released  1989 .(incorrect)
+
+Question : When was Bill Gates born?
+Correct Answer : Bill Gates was born October 28, 1955.
+My System Answer : Bill Gates was born  October 28, 1955) .(correct)
+
+Question : When is Martin Luther King Jr Day?
+Correct Answer : Martin Luther King Day is always observed on the third Monday of January.
+My System Answer : Martin Luther King Jr is Day  1971, .(incorrect)
+
+******************************************************************************************************************
+
+Question : Who was Reddit invented by?
+Answer : Reddit was invented by Steve Huffman.
+Actual Text : Reddit was founded by University of Virginia roommates <START:person> Steve Huffman <END> and Alexis Ohanian in <START:date> 2005.
+
+The program searches wikipedia for 'Reddit invented by', then for 'Reddit invented', then just for 'Reddit'.
+It then parses the article for Reddit for the word 'invented', then for the word 'by' and returns the highest up sentence that contains a person's name.
+Then it pulls out that name and returns it into a reformulated sentence.
+Even though the term "invented" never appears in the text, it still returns the right answer because the word 'by' is located at the top of the article with the founders' names.
+Because a lot of words were trimmed from the query and not many were kept, the confidence is low, at .32.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
